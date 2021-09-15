@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><Tic-tac-toe></Tic-tac-toe></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js" defer></script>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" placeholder="player1's name" class="inpt" id="one" />
+      <svg
+        id="svg2"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path fill="none" d="M0 0h24v24H0V0z" />
+        <circle cx="15.5" cy="9.5" r="1.5" />
+        <circle cx="8.5" cy="9.5" r="1.5" />
+        <path
+          d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"
+        />
+      </svg>
+      <input type="text" placeholder="player2's name" class="inpt" id="two" />
+      <svg
+        id="svg1"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path fill="none" d="M0 0h24v24H0V0z" />
+        <circle cx="15.5" cy="9.5" r="1.5" />
+        <circle cx="8.5" cy="9.5" r="1.5" />
+        <path
+          d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-5-6c.78 2.34 2.72 4 5 4s4.22-1.66 5-4H7z"
+        />
+      </svg>
+      <button class="btn" id="submit">SUBMIT</button>
+      <button class="btn" id="reset">RESET</button>
+      <div class="flexbox">
+        <div class="gameboard">
+          <div data-index="0" class="grid-item"></div>
+          <div data-index="1" class="grid-item"></div>
+          <div data-index="2" class="grid-item"></div>
+          <div data-index="3" class="grid-item"></div>
+          <div data-index="4" class="grid-item"></div>
+          <div data-index="5" class="grid-item"></div>
+          <div data-index="6" class="grid-item"></div>
+          <div data-index="7" class="grid-item"></div>
+          <div data-index="8" class="grid-item"></div>
+        </div>
+        <div class="turn-box"></div>
+      </div>
+    </div>
+  </body>
+</html>
